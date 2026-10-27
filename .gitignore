@@ -1,0 +1,28 @@
+# Local Zotero configuration and data
+user-settings.json
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.bak
+*.backup
+storage/
+*.bib
+*.ris
+*.enw
+
+# Local runtime/cache and secrets
+.tmp/
+.env
+.env.*
+!.env.example
+*.token
+*.key
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
